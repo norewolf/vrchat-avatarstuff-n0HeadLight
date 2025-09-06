@@ -1,4 +1,4 @@
-# vrchat-avatarstuff-n0HeadLight
+ vrchat-avatarstuff-n0HeadLight
 一個用於vrchat的avatar上的多功能照明組件
 
 
@@ -9,14 +9,13 @@ n0 HeadLight是一個用於vrchat的avatar身上的多功照明組件
 支持調節照射距離，照射強度，照射角度（聚光燈），照射顏色，以及光照是否對他人同步
 組件的點光源中包含了一個預製的燈泡模型
 
+你需要先安裝VRCFury到你的項目中
 
 將Head Light.Prefab拖動到你的Avatar層級下
 
 根據你的Avatar在層級中適當調整SpotLight和PointLight的位置
 
-將Head Light FX和Head Light Params合併至你的Avatar自身的FX和Parameters中
-
-將Head Light Menu添加到你想要的菜單中
+你可以在VRCFury組件中將Head Light Menu修改到你想要的菜單中
 
 如果你不知道怎麼操作可以尋找別人的幫助
 
@@ -28,6 +27,9 @@ https://booth.pm/zh-tw/items/1489829
 感謝以上作者，如果喜歡借物表中作者的作品，也請支持他們
 如果相關作者不希望作品被應用在此組件上也請留言給我，我將會刪除他們
 
-LOG:v1版本存在路徑錯誤導致無法正常使用，即將在v2版本中修復此問題
+LOG:
+v1版本存在路徑錯誤導致無法正常使用，即將在v2版本中修復此問題
+v2：添加了功能圖標，修復了路徑錯誤導致無法正常使用的問題
+v3：統一了所有相關物的命名，增加了同步和非同步圖標的區分，重製了能用VRCFury製作的功能，不再需要手動合併FX和參數
 
 
